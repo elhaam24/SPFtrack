@@ -46,6 +46,14 @@ if (isset($_POST['login'])) {
         </div>
 
         <form method="post" action="">
+            <span style="color:green;">
+                <?php 
+                if (isset($_SESSION['successmsg'])) {
+                    echo htmlentities($_SESSION['successmsg']);
+                    $_SESSION['successmsg'] = "";
+                }
+                ?>
+            </span>
             <span style="color:red;">
                 <?php echo htmlentities($_SESSION['errmsg']); ?>
                 <?php echo htmlentities($_SESSION['errmsg'] = ""); ?>
@@ -75,6 +83,7 @@ if (isset($_POST['login'])) {
         </form>
 
         <div class="login-footer">
+            <p>Don't have an account? <a href="register.php">Register here</a></p>
             <p>&copy;
                 <?php echo date('Y'); ?> SPF Track. All rights reserved.
             </p>

@@ -144,10 +144,5 @@ $featured_courses_query = mysqli_query($conn, "SELECT cu.*, t.teacher_name FROM 
     <?php include("includes/footer.php"); ?>
 </main>
 
-<!-- Contextual FAB (Only for main landing context) -->
-<button class="fixed bottom-24 right-6 md:bottom-10 md:right-10 w-14 h-14 bg-primary text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-40">
-    <span class="material-symbols-outlined" style="font-variation-settings: 'wght' 600;">add</span>
-</button>
-
 </body>
 </html>

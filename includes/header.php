@@ -13,6 +13,6 @@
     </nav>
     <div class="flex items-center gap-md">
         <a href="student/index.php" class="hidden md:block font-button text-button text-primary hover:text-on-primary-container px-md py-sm">Log In</a>
-        <a href="student/index.php" class="bg-primary-container text-on-primary-container font-button text-button px-lg py-sm rounded-xl hover:bg-primary transition-colors">Sign Up</a>
+        <a href="student/register.php" class="bg-primary-container text-on-primary-container font-button text-button px-lg py-sm rounded-xl hover:bg-primary transition-colors">Sign Up</a>
     </div>
 </header>
