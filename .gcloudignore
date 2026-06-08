@@ -1,0 +1,11 @@
+.gcloudignore
+.git
+.gitignore
+.vscode
+spftrack_db.sql
+wamp64
+phpmyadmin
+# Exclude potential large assets or logs
+*.log
+node_modules
+.DS_Store
